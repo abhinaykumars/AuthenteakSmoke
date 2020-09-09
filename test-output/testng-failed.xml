@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="googlePackage.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Authenteak Smoke Testing(failed)">
+    <classes>
+      <class name="authenteakSmokeTest.CreateAccount">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchURL"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- authenteakSmokeTest.CreateAccount -->
+    </classes>
+  </test> <!-- Authenteak Smoke Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

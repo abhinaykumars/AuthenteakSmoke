@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="163034" started-at="2020-09-09T19:20:11 IST" finished-at="2020-09-09T19:22:54 IST">
+    <groups>
+    </groups>
+    <test name="Authenteak Smoke Testing" duration-ms="163034" started-at="2020-09-09T19:20:11 IST" finished-at="2020-09-09T19:22:54 IST">
+      <class name="authenteakSmokeTest.CreateAccount">
+        <test-method status="PASS" signature="getLaunchURL()[pri:0, instance:authenteakSmokeTest.CreateAccount@47d90b9e]" name="getLaunchURL" is-config="true" duration-ms="68856" started-at="2020-09-09T19:20:11 IST" finished-at="2020-09-09T19:21:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLaunchURL -->
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:authenteakSmokeTest.CreateAccount@47d90b9e]" name="createAccount" duration-ms="89293" started-at="2020-09-09T19:21:21 IST" finished-at="2020-09-09T19:22:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:authenteakSmokeTest.CreateAccount@47d90b9e]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2020-09-09T19:22:54 IST" finished-at="2020-09-09T19:22:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- authenteakSmokeTest.CreateAccount -->
+    </test> <!-- Authenteak Smoke Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
