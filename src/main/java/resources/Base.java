@@ -43,6 +43,7 @@ public class Base {
 		
 		String urlName = prop.getProperty("url");
 		driver.get(urlName);
+		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		return driver;

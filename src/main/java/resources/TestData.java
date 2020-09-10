@@ -20,8 +20,8 @@ public class TestData {
 		
 		ArrayList<String>al = new ArrayList<String>();
 		
-		//String testDataPath = "C:\\Users\\Abhinay\\Desktop\\Abhi\\Cognizant 2020\\Smoke Testing - Ravi\\AuthenTeak_TestData.xlsx";
-		String testDataPath = System.getProperty("user.dir")+"\\src\\main\\java\\resources\\AuthenTeak_TestData.xlsx";
+		String testDataPath = "C:\\Users\\Abhinay\\Desktop\\Abhi\\Cognizant 2020\\Smoke Testing - Ravi\\AuthenTeak_TestData.xlsx";
+		//String testDataPath = System.getProperty("user.dir")+"\\src\\main\\java\\resources\\AuthenTeak_TestData.xlsx";
 		FileInputStream fis = new FileInputStream(testDataPath);
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);//access the workbook
 		

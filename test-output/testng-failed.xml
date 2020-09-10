@@ -8,8 +8,8 @@
     <classes>
       <class name="authenteakSmokeTest.CreateAccount">
         <methods>
+          <include name="getLaunchURL"/>
           <include name="closeBrowser"/>
-          <include name="launchURL"/>
           <include name="createAccount"/>
         </methods>
       </class> <!-- authenteakSmokeTest.CreateAccount -->
